@@ -9,7 +9,7 @@ const Index = () => {
 
   const handleSearch = async () => {
     setLoading(true);
-    // Simulate API call
+
     setTimeout(() => {
       setResults([
         {
